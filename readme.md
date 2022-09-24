@@ -7,3 +7,11 @@ My goal with Vagabond is a practice amp then runs anywhere. It doesn't reqire ja
 * Writen in python, with C for performance, it's a low latency program.
 * Uses alsa, so you can jam along with YouTube
 * No expensive interface required - I'm using a cheap microphone/headphone to usb connector - https://www.dukabel.com/product_DUSB352FB.php, with a 1/4" to 1/8" guitar cable.
+
+
+## install
+```
+git clone https://github.com/darkoverlordofdata/Vagabond.app.git
+cd Vagabond.app
+pip install -r requirements.txt
+```
