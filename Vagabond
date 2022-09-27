@@ -1,3 +1,5 @@
 #!/bin/sh
 HERE="$(dirname "$(readlink -f "${0}")")"
-exec "python3" "${HERE}/Resources/amplifier.py" "$@"
+# exec "python3" "${HERE}/Resources/amplifier.py" "$@"
+cd ${HERE}/Resources
+/usr/local/bin/python3 ${HERE}/Resources/main.py
