@@ -13,6 +13,8 @@ My goal with Vagabond is a practice amp that runs anywhere. It doesn't reqire ja
 
 ## install
 ```
+sudo pkg install portaudio
+
 git clone https://github.com/darkoverlordofdata/Vagabond.app.git
 cd Vagabond.app
 pip install -r requirements.txt
